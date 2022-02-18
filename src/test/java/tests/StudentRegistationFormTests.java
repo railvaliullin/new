@@ -24,6 +24,7 @@ public class StudentRegistationFormTests {
         $("#firstName").setValue("Rail");
         $("#lastName").setValue("Valiullin");
         $("#userEmail").setValue("testrail@mail.ru");
+        $("#submit").scrollTo().click();
         $(byText("Male")).click();
         $("#userNumber").setValue("0123456789");
         $("#dateOfBirthInput").click();
