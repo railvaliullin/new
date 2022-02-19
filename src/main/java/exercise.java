@@ -5,6 +5,8 @@ public class exercise {
         byte e;
         boolean f = false, g = true;
         boolean h = false, i = false;
+        long aLong = 100L;
+        double aDouble = 0.0D;
         a = 10;
         b = 50;
         c = 7;
